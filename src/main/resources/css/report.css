@@ -1,0 +1,64 @@
+body {
+	font-size: 14px;
+}
+
+.ui-layout-west {
+	white-space: nowrap;
+	padding: 20px;
+}
+
+.ui-layout-west ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.ui-layout-center {
+	overflow: hidden;
+}
+
+#detail_frame {
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.testng-node {
+	margin: 3px;
+	font-size: 15px;
+	font-weight: normal;
+	padding-left: 18px;
+	cursor: pointer;
+	width: 0px;
+}
+
+.testng-suit-fail {
+	background: url("icon/suitefail.gif") no-repeat;
+}
+
+.testng-suit-ok {
+	background: url("icon/suiteok.gif") no-repeat;
+}
+
+.testng-suit-skip {
+	background: url("icon/suiteskip.gif") no-repeat;
+}
+
+.testng-test-fail {
+	background: url("icon/testfail.gif") no-repeat;
+}
+
+.testng-test-ok {
+	background: url("icon/testok.gif") no-repeat;
+}
+
+.testng-test-skip {
+	background: url("icon/testskip.gif") no-repeat;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
