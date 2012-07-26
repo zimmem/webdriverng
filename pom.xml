@@ -28,10 +28,13 @@
 			<email>zimmem@gmail.com</email>
 		</developer>
 	</developers>
+	
 	<url>https://github.com/zimmem/webdriverng</url>
+	
 	<scm>
-		<url>scm:git:git@github.com:zimmem/webdriverng.git/tags/webdriverng-1.0.1</url>
-		<connection>scm:git:git@github.com:zimmem/webdriverng.git/tags/webdriverng-1.0.1</connection>
+		<url>scm:git:git@github.com:zimmem/webdriverng.git</url>
+		<connection>scm:git:git@github.com:zimmem/webdriverng.git</connection>
+		<developerConnection>scm:git:git@github.com:zimmem/webdriverng.git</developerConnection>
 	</scm>
 
 	<dependencies>
