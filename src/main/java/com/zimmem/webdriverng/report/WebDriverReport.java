@@ -65,7 +65,6 @@ public class WebDriverReport implements IReporter {
             index.println("</html>");
 
         } catch (IOException e1) {
-            // TODO Auto-generated catch block
             e1.printStackTrace();
         } finally {
             index.close();
