@@ -1,25 +1,26 @@
 package test.packag;
 
-import org.testng.Assert;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.zimmem.webdriverng.WebDriverFactory;
 
 /**
  * @author zhaowen.zhuangzw 2012-2-18 下午2:19:19
  */
-public class Copy_2_of_TestNGSample {
+public class TestNGSampleThree {
 
-    int i = 0;
-
-    @Test(invocationCount = 5)
+    @Test(description = "test sample")
     public void testMethod() {
-        i++;
-        Assert.assertTrue(i > 2);
+        WebDriver currentWebDriver = WebDriverFactory.getCurrentWebDriver();
+        currentWebDriver.get("http://www.google.com");
+        throw new RuntimeException();
     }
 
     @Test
     public void testMethod2() {
-        throw new RuntimeException();
+        // throw new RuntimeException();
     }
 
     @DataProvider(name = "test")

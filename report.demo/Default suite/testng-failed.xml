@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="test.packag.TestNGSampleThree">
+        <methods>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- test.packag.TestNGSampleThree -->
+      <class name="test.packag.TestNGSample">
+        <methods>
+          <include name="testMethod"/>
+          <include name="testMethod2"/>
+          <include name="testMethod3" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- test.packag.TestNGSample -->
+      <class name="test.packag.TestNGSampleTwo">
+        <methods>
+          <include name="testMethod2"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- test.packag.TestNGSampleTwo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
