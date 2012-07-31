@@ -55,7 +55,6 @@ Add surefire plugin configure in pom.xml.
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-surefire-plugin</artifactId>
 		<configuration>
-			<junitArtifactName>com.alibaba.external:test.junit</junitArtifactName>
 			<argLine>
 				-Dwebdriver.config=${webdriver.config}
 			</argLine>

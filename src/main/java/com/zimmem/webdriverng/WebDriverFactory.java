@@ -54,6 +54,7 @@ public class WebDriverFactory {
                     WebDriver driver = builder.buildWebDriver(config);
                     driver.manage().timeouts().implicitlyWait(config.getWait() > 0 ? config.getWait() : 30,
                                                               TimeUnit.SECONDS);
+                    driver.manage().window().maximize();
                     return driver;
                 }
             }
