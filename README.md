@@ -46,6 +46,10 @@ webdriverng
 	WebDriver currentWebDriver = WebDriverFactory.getCurrentWebDriver();
 
 ## WebDriverNg Report
+### Report demo
+
+http://zimmem.github.com/webdriverng/webdirver-report.demo/index.html
+
 ### Generate reports when running test in eclipse. 
 No configuration
 ### Generate reports when running test with maven.
